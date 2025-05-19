@@ -43,9 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DrillTool.cs" />
     <Compile Include="HammerTool.cs" />
+    <Compile Include="PipeCutterTool.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SawTool.cs" />
+    <Compile Include="ScrewdriverTool.cs" />
     <Compile Include="Tool.cs" />
     <Compile Include="WrenchTool.cs" />
   </ItemGroup>
