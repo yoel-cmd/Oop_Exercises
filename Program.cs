@@ -11,6 +11,13 @@ namespace Oop_Exercises
         static void Main(string[] args)
         {
             Console.WriteLine("hi");
+
+
+            WrenchTool wrench = new WrenchTool("wrench", "3");
+
+            wrench.Use();
+            wrench.Describe();
+
         }
     }
 }
