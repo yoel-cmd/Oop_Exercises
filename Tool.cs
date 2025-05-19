@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class Tool
+public abstract class Tool
 {
     protected string _name;
     protected string _weight;
@@ -9,17 +9,13 @@ public class Tool
     public Tool(string name,string weight)
     {
         this._name = name;
-        this._weight = weight;
+        this._weight=weight;
     }
 
-    public void Describe()
-    {
-        Console.WriteLine($"The name of the current tool is and its weight is");
-    }
+    public abstract void Describe();
+    
 
-    public void Use()
-    {
-        Console.WriteLine("Tool is being used ");
-    }
+    public abstract void Use();
+    
 
 }
