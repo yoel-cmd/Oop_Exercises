@@ -9,15 +9,15 @@ public class Tool
     public Tool(string name,string weight)
     {
         this._name = name;
-        this._weight = weight;
+        this._weight=weight;
     }
 
-    public void Describe()
+    public virtual void Describe()
     {
         Console.WriteLine($"The name of the current tool is and its weight is");
     }
 
-    public void Use()
+    public virtual void Use()
     {
         Console.WriteLine("Tool is being used ");
     }
